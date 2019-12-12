@@ -11,7 +11,7 @@ function animate(obj, option) {
         obj.style[k] = leader + 'px'
         if(leader != target){
             flag = false;
-            }
+            } 
         }
         if(flag){
             clearInterval(obj.timer);
